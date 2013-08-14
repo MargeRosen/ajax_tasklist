@@ -1,11 +1,24 @@
-# RailsCasts Example Application
+# Task List #
 
-Run these commands to try it out.
+Keep a task list to track things to do.
+
+Check the box when a task is complete to move it to the completed task area.
+
+Optionally, remove old completed tasks or remove incomplete tasks you no longer need.
+
+
+### Run these commands to try it out. ###
 
 ```
-bundle         (may need to run "bundle update rails")
+bundle
 rake db:setup
 rails s
+```
+
+May need to run:
+
+```
+bundle update rails
 ```
 
 Requires Ruby 1.9.2 or later to run.
